@@ -1,0 +1,56 @@
+2022-07-25 09:27:55,349                 s.s.m.c.c.u.DevicePermissionConfig  Request Device Permission
+2022-07-25 09:27:55,353                 sysco.swms.mobile.MainActivity  Starting SWMS application
+2022-07-25 09:27:55,354                 sysco.swms.mobile.MainActivity  Retrieving SWMS application state
+2022-07-25 09:27:55,356                 sysco.swms.mobile.MainActivity  Retrieving SWMS application state from the Bundle from onCreate() itself
+2022-07-25 09:27:57,708    WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02       94:FB:29:9E:0C:4A    s.s.m.c.c.impl.ConfigurationImpl  Successfully Fetched The Serial Number
+2022-07-25 09:27:57,904   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1668976640  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.core.EMDKSettingManager  EMDK manger connected
+2022-07-25 09:27:59,045   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1668976640  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.u.B.Companion  received indent form DataWedge
+2022-07-25 09:27:59,049   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1668976640  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.u.B.Companion  DataWedge version 8.2.505
+2022-07-25 09:27:59,051   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1668976640  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.u.B.Companion  barcode Version 28.11.4.0
+2022-07-25 09:27:59,054   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1668976640  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.u.B.Companion  barcode decoder library N/A
+2022-07-25 09:27:59,056   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1668976640  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.u.B.Companion  scanner Firmware PAAEXS00-001-R07
+2022-07-25 09:27:59,057   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1668976640  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.u.B.Companion  scanner name RS5100 Bluetooth Scanner
+2022-07-25 09:27:59,058   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1668976640  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.u.B.Companion  scanner connected with RS5100 Bluetooth Scanner
+2022-07-25 09:27:59,062   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1668976640  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.u.B.Companion  received indent form DataWedge
+2022-07-25 09:27:59,063   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1668976640  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.u.B.Companion  DataWedge version 8.2.505
+2022-07-25 09:27:59,064   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1668976640  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.u.B.Companion  barcode Version 28.11.4.0
+2022-07-25 09:27:59,065   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1668976640  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.u.B.Companion  barcode decoder library N/A
+2022-07-25 09:27:59,066   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1668976640  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.u.B.Companion  scanner Firmware PAAEXS00-001-R07
+2022-07-25 09:27:59,067   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1668976640  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.u.B.Companion  scanner name RS5100 Bluetooth Scanner
+2022-07-25 09:27:59,067   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1668976640  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.u.B.Companion  scanner connected with RS5100 Bluetooth Scanner
+2022-07-25 09:27:59,087   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1668976640  94:FB:29:9E:0C:4A 20338523022526   s.s.m.ui.login.view.LoginFragment  requesting change locale to en-EN
+2022-07-25 09:28:39,335   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1668976640  94:FB:29:9E:0C:4A 20338523022526   s.s.m.common.core.CoreApplication  Initiate Disconnecting Connected Bluetooth Devices
+2022-07-25 09:28:39,359   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1668976640  94:FB:29:9E:0C:4A 20338523022526   s.s.m.common.core.CoreApplication  Device Name RS5100 S22014523022976  | Address 74:D2:85:72:26:21
+2022-07-25 09:28:39,385   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1668976640  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.s.r.C.Companion  Clearing SWMS application state
+2022-07-25 09:28:39,389   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1668976640  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.s.r.C.Companion  Cleared SWMS application state
+2022-07-25 09:28:39,391   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1668976640  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.s.r.C.Companion  Clearing SWMS session state
+2022-07-25 09:28:39,397   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1668976640  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.s.r.C.Companion  Cleared SWMS session state
+2022-07-25 09:28:39,399   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1668976640  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.s.r.C.Companion  Exiting after clearing SWMS application state
+2022-07-25 09:28:57,984                 s.s.m.c.c.u.DevicePermissionConfig  Request Device Permission
+2022-07-25 09:28:57,986                 sysco.swms.mobile.sos.MainActivity  Starting SWMS application
+2022-07-25 09:28:57,987                 sysco.swms.mobile.sos.MainActivity  Retrieving SWMS application state
+2022-07-25 09:28:57,989                 sysco.swms.mobile.sos.MainActivity  Retrieving SWMS application state from the Bundle from onCreate() itself
+2022-07-25 09:28:59,560    WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02       94:FB:29:9E:0C:4A    s.s.m.c.c.impl.ConfigurationImpl  Successfully Fetched The Serial Number
+2022-07-25 09:29:00,095   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1704067072  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.core.EMDKSettingManager  EMDK manger connected
+2022-07-25 09:29:00,465   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1704067072  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.u.B.Companion  received indent form DataWedge
+2022-07-25 09:29:00,468   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1704067072  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.u.B.Companion  DataWedge version 8.2.505
+2022-07-25 09:29:00,469   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1704067072  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.u.B.Companion  barcode Version 28.11.4.0
+2022-07-25 09:29:00,470   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1704067072  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.u.B.Companion  barcode decoder library N/A
+2022-07-25 09:29:00,471   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1704067072  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.u.B.Companion  scanner Firmware PAAEXS00-001-R07
+2022-07-25 09:29:00,472   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1704067072  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.u.B.Companion  scanner name RS5100 Bluetooth Scanner
+2022-07-25 09:29:00,473   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1704067072  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.u.B.Companion  scanner connected with RS5100 Bluetooth Scanner
+2022-07-25 09:29:00,475   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1704067072  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.u.B.Companion  received indent form DataWedge
+2022-07-25 09:29:00,477   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1704067072  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.u.B.Companion  DataWedge version 8.2.505
+2022-07-25 09:29:00,478   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1704067072  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.u.B.Companion  barcode Version 28.11.4.0
+2022-07-25 09:29:00,479   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1704067072  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.u.B.Companion  barcode decoder library N/A
+2022-07-25 09:29:00,480   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1704067072  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.u.B.Companion  scanner Firmware PAAEXS00-001-R07
+2022-07-25 09:29:00,481   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1704067072  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.u.B.Companion  scanner name RS5100 Bluetooth Scanner
+2022-07-25 09:29:00,482   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1704067072  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.u.B.Companion  scanner connected with RS5100 Bluetooth Scanner
+2022-07-25 09:29:00,502   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1704067072  94:FB:29:9E:0C:4A 20338523022526   s.s.m.ui.login.view.LoginFragment  requesting change locale to en-EN
+2022-07-25 09:30:37,783   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1704067072  94:FB:29:9E:0C:4A 20338523022526   s.s.m.common.core.CoreApplication  Initiate Disconnecting Connected Bluetooth Devices
+2022-07-25 09:30:37,804   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1704067072  94:FB:29:9E:0C:4A 20338523022526   s.s.m.common.core.CoreApplication  Device Name RS5100 S22014523022976  | Address 74:D2:85:72:26:21
+2022-07-25 09:30:37,846   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1704067072  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.s.r.C.Companion  Clearing SWMS application state
+2022-07-25 09:30:37,850   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1704067072  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.s.r.C.Companion  Cleared SWMS application state
+2022-07-25 09:30:37,851   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1704067072  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.s.r.C.Companion  Clearing SWMS session state
+2022-07-25 09:30:37,855   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1704067072  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.s.r.C.Companion  Cleared SWMS session state
+2022-07-25 09:30:37,856   dev WT6300 94:FB:29:9E:0C:4A 9c:8c:d8:4c:09:02 1 20338523022526 false 2869870592 1704067072  94:FB:29:9E:0C:4A 20338523022526   s.s.m.c.c.s.r.C.Companion  Exiting after clearing SWMS application state
