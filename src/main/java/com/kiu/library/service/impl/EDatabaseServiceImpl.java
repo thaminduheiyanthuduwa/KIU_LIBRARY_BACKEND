@@ -42,7 +42,7 @@ public class EDatabaseServiceImpl implements EDatabaseService {
 
         Pageable pageable = PageRequest.of(page-1, limit);
 
-        List<DatabaseEntity> allInfo = resourceRepository.findByIsActive(1);
+        List<DatabaseEntity> allInfo = resourceRepository.findByIsActiveOrderByIdDesc(1);
 
         Integer count = resourceRepository.countAllResource();
 

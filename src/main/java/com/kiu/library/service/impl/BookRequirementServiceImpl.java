@@ -1,16 +1,15 @@
 package com.kiu.library.service.impl;
 
+import com.kiu.library.entity.BookRequirementEntity;
 import com.kiu.library.entity.ResourceEntity;
 import com.kiu.library.model.resouceModel.*;
 import com.kiu.library.payload.UploadFileResponse;
+import com.kiu.library.repository.RequirementRepository;
 import com.kiu.library.repository.ResourceRepository;
+import com.kiu.library.service.BookRequirementService;
 import com.kiu.library.service.EResourceService;
 import com.kiu.library.service.FileStorageService;
 import org.springframework.beans.factory.annotation.Autowired;
-
-import java.io.IOException;
-import java.sql.Timestamp;
-
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
@@ -18,6 +17,8 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import javax.transaction.Transactional;
+import java.io.IOException;
+import java.sql.Timestamp;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
@@ -26,39 +27,39 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class EResourceServiceImpl implements EResourceService {
+public class BookRequirementServiceImpl implements BookRequirementService {
 
     @Autowired
-    private ResourceRepository resourceRepository;
+    private RequirementRepository resourceRepository;
 
     @Autowired
     private FileStorageService fileStorageService;
 
     @Override
     @Transactional
-    public AllResourceInfo getAllInfo(int page, int limit, String sort) {
+    public AllResourceBookReqInfo getAllInfo(int page, int limit, String sort) {
 
         Pageable pageable = PageRequest.of(page - 1, limit);
 
-        List<ResourceEntity> allInfo = resourceRepository.findByIsActiveOrderByIdDesc(1, pageable);
+        List<BookRequirementEntity> allInfo = resourceRepository.findByIsActiveOrderByIdDesc(1, pageable);
 
         Integer count = resourceRepository.countAllResource();
 
-        ResourceDataInfo resourceDataInfo = new ResourceDataInfo();
+        ResourceDataBookReqInfo resourceDataInfo = new ResourceDataBookReqInfo();
         resourceDataInfo.setTotal(count);
 
-        List<ResourceInfo> listOfResources = new ArrayList<>();
+        List<BookResourceInfo> listOfResources = new ArrayList<>();
 
-        for (ResourceEntity info : allInfo) {
+        for (BookRequirementEntity info : allInfo) {
 
             String[] test = {"a-platform"};
 
-            ResourceInfo resourceInfo = new ResourceInfo(info.getId(), info.getTimestamp(),
+            BookResourceInfo resourceInfo = new BookResourceInfo(info.getId(), info.getTimestamp(),
                     info.getTitle(), info.getAuthor(), info.getDepartment(),
                     info.getResource(), info.getImportance(), info.getType(), info.getStatus(),
                     info.getDisplayTime(), info.isCommentDisabled(),
                     info.getPageViews(), test, info.getDocumentName(), info.getDescription()
-                    , info.getDocumentImage());
+                    , info.getDocumentImage(), info.getHeadApproval(), info.getFinalApproval(), info.getReasonIfRejected());
 
             listOfResources.add(resourceInfo);
 
@@ -66,7 +67,7 @@ public class EResourceServiceImpl implements EResourceService {
         }
         resourceDataInfo.setItems(listOfResources);
 
-        AllResourceInfo allResourceInfo = new AllResourceInfo();
+        AllResourceBookReqInfo allResourceInfo = new AllResourceBookReqInfo();
         allResourceInfo.setCode(20000);
         allResourceInfo.setData(resourceDataInfo);
 
@@ -76,7 +77,7 @@ public class EResourceServiceImpl implements EResourceService {
     @Override
     public AllResourceInfo getInfoById(int id) throws IOException {
 
-        Optional<ResourceEntity> allInfo = resourceRepository.findById(id);
+        Optional<BookRequirementEntity> allInfo = resourceRepository.findById(id);
 
         Integer count = resourceRepository.countAllResource();
 
@@ -87,7 +88,7 @@ public class EResourceServiceImpl implements EResourceService {
 
         String[] test = {"a-platform"};
 
-        ResourceEntity info = allInfo.get();
+        BookRequirementEntity info = allInfo.get();
 
         ResourceInfo resourceInfo = new ResourceInfo(info.getId(), info.getTimestamp(),
                 info.getTitle(), info.getAuthor(), info.getDepartment(),
@@ -112,7 +113,7 @@ public class EResourceServiceImpl implements EResourceService {
     public SaveEResourceResponse saveInfo(SaveResourceRequest saveRequest) {
 
         Pageable topOne = PageRequest.of(0, 1);
-        List<ResourceEntity> allInfo = resourceRepository.getLatestId(topOne);
+        List<BookRequirementEntity> allInfo = resourceRepository.getLatestId(topOne);
 
         Integer id = 1;
 
@@ -126,13 +127,13 @@ public class EResourceServiceImpl implements EResourceService {
 
         int idNew = ++id;
 
-        ResourceEntity resourceEntity = new ResourceEntity(idNew, (double) timestamp.getTime(),
+        BookRequirementEntity resourceEntity = new BookRequirementEntity(idNew, (double) timestamp.getTime(),
                 saveRequest.getTitle(),
                 saveRequest.getAuthor(), saveRequest.getDepartment(), saveRequest.getResource(),
                 0, saveRequest.getType(), "draft", dtf.format(now), false, 0,
-                saveRequest.getAddedUser(), (double) timestamp.getTime(), saveRequest.getAddedUser(), 0, saveRequest.getDescription(), "", "");
+                saveRequest.getAddedUser(), (double) timestamp.getTime(), saveRequest.getAddedUser(), 0, saveRequest.getDescription(), "", "", 0, 0, "");
 
-        List<ResourceEntity> listOfResources = new ArrayList<>();
+        List<BookRequirementEntity> listOfResources = new ArrayList<>();
         listOfResources.add(resourceEntity);
 
         resourceRepository.saveAll(listOfResources);
@@ -145,17 +146,17 @@ public class EResourceServiceImpl implements EResourceService {
     @Override
     public SaveResourceResponse deleteEresource(int id, int user) {
 
-        Optional<ResourceEntity> resource = resourceRepository.findById(id);
+        Optional<BookRequirementEntity> resource = resourceRepository.findById(id);
 
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
 
-        ResourceEntity updatedResource = resource.get();
+        BookRequirementEntity updatedResource = resource.get();
 
         updatedResource.setIsActive(0);
         updatedResource.setLastUpdatedTime((double) timestamp.getTime());
         updatedResource.setLastUpdatedUser(user);
 
-        List<ResourceEntity> listOfResources = new ArrayList<>();
+        List<BookRequirementEntity> listOfResources = new ArrayList<>();
         listOfResources.add(updatedResource);
 
         resourceRepository.saveAll(listOfResources);
@@ -165,18 +166,30 @@ public class EResourceServiceImpl implements EResourceService {
     }
 
     @Override
-    public SaveResourceResponse updateEresourceStatus(int id, String status, int user) {
-        Optional<ResourceEntity> resource = resourceRepository.findById(id);
+    public SaveResourceResponse updateEresourceStatus(int id, String status, int user, String type) {
+        Optional<BookRequirementEntity> resource = resourceRepository.findById(id);
 
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
 
-        ResourceEntity updatedResource = resource.get();
+        BookRequirementEntity updatedResource = resource.get();
 
-        updatedResource.setStatus(status);
+        if (type.equals("published"))
+            updatedResource.setStatus(status);
+        else if (type.equals("draft"))
+            updatedResource.setStatus(status);
+        else if (type.equals("2"))
+            updatedResource.setHeadApproval(1);
+        else if (type.equals("3"))
+            updatedResource.setHeadApproval(0);
+        else if (type.equals("4"))
+            updatedResource.setFinalApproval(1);
+        else if (type.equals("5"))
+            updatedResource.setHeadApproval(0);
+
         updatedResource.setLastUpdatedTime((double) timestamp.getTime());
         updatedResource.setLastUpdatedUser(user);
 
-        List<ResourceEntity> listOfResources = new ArrayList<>();
+        List<BookRequirementEntity> listOfResources = new ArrayList<>();
         listOfResources.add(updatedResource);
 
         resourceRepository.saveAll(listOfResources);
@@ -185,23 +198,27 @@ public class EResourceServiceImpl implements EResourceService {
     }
 
     @Override
-    public SaveResourceResponse updateEresource(int id, SaveResourceRequest saveRequest) {
+    public SaveResourceResponse updateEresource(int id, String type, String resource, Integer user) {
 
-        Optional<ResourceEntity> allInfo = resourceRepository.findById(id);
+        Optional<BookRequirementEntity> allInfo = resourceRepository.findById(id);
 
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
 
-        ResourceEntity updateObj = allInfo.get();
-        updateObj.setAuthor(saveRequest.getAuthor());
-        updateObj.setDepartment(saveRequest.getDepartment());
-        updateObj.setTitle(saveRequest.getTitle());
-        updateObj.setType(saveRequest.getType());
-        updateObj.setResource(saveRequest.getResource());
-        updateObj.setDescription(saveRequest.getDescription());
-        updateObj.setLastUpdatedUser(saveRequest.getAddedUser());
-        updateObj.setLastUpdatedTime((double) timestamp.getTime());
+        BookRequirementEntity updateObj = allInfo.get();
 
-        List<ResourceEntity> listOfResources = new ArrayList<>();
+        if (type == "1"){
+//            updateObj.setLastUpdatedUser(user);
+//            updateObj.setLastUpdatedTime((double) timestamp.getTime());
+        }
+        if (type == "2"){
+
+            updateObj.setLastUpdatedUser(user);
+        }
+
+        updateObj.setLastUpdatedTime((double) timestamp.getTime());
+        updateObj.setReasonIfRejected(resource);
+
+        List<BookRequirementEntity> listOfResources = new ArrayList<>();
         listOfResources.add(updateObj);
 
         resourceRepository.saveAll(listOfResources);
@@ -211,39 +228,33 @@ public class EResourceServiceImpl implements EResourceService {
     }
 
     @Override
-    public UploadFileResponse uploadFiles(int id, MultipartFile[] files, MultipartFile[] cover) {
+    public UploadFileResponse uploadFiles(int id, MultipartFile[] files, String type) {
 
-        return uploadFile(id, Arrays.asList(files).get(0), Arrays.asList(cover).get(0));
+        return uploadFile(id, Arrays.asList(files).get(0), type);
     }
 
-    private UploadFileResponse uploadFile(int id, MultipartFile file, MultipartFile cover) {
-        String fileName = fileStorageService.storeFile(id, file, "");
-        String coverImage = fileStorageService.storeFile(id, cover, "");
+    private UploadFileResponse uploadFile(int id, MultipartFile file, String type) {
+        String fileName = fileStorageService.storeFile(id, file, type);
 
         String fileDownloadUri = ServletUriComponentsBuilder.fromCurrentContextPath()
                 .path("/uploadedFiles/")
                 .path(fileName)
                 .toUriString();
 
-        String coverFileDownloadUri = ServletUriComponentsBuilder.fromCurrentContextPath()
-                .path("/uploadedFiles/")
-                .path(coverImage)
-                .toUriString();
+        Optional<BookRequirementEntity> resource = resourceRepository.findById(id);
 
-        Optional<ResourceEntity> resource = resourceRepository.findById(id);
+        BookRequirementEntity updatedResource = resource.get();
+        if (type.equals("1")) {
+            updatedResource.setDocumentName(fileName);
+            updatedResource.setIsActive(1);
+        } else if (type.equals("2")) {
+            updatedResource.setDocumentImage(fileName);
+        }
 
-        ResourceEntity updatedResource = resource.get();
-        updatedResource.setDocumentName(fileName);
-        updatedResource.setDocumentImage(coverImage);
-        updatedResource.setIsActive(1);
-
-        List<ResourceEntity> listOfResources = new ArrayList<>();
+        List<BookRequirementEntity> listOfResources = new ArrayList<>();
         listOfResources.add(updatedResource);
 
         resourceRepository.saveAll(listOfResources);
-
-        new UploadFileResponse(coverImage, coverFileDownloadUri,
-                cover.getContentType(), cover.getSize());
 
         return new UploadFileResponse(fileName, fileDownloadUri,
                 file.getContentType(), file.getSize());

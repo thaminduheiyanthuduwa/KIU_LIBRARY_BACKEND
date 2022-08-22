@@ -15,7 +15,7 @@ public interface DatabaseRepository extends JpaRepository<DatabaseEntity, Intege
 
     List<DatabaseEntity> findAll();
 
-    List<DatabaseEntity> findByIsActive(@Param("isActive") Integer active);
+    List<DatabaseEntity> findByIsActiveOrderByIdDesc(@Param("isActive") Integer active);
 
     @Query("select t from DatabaseEntity t order by t.id desc")
     List<DatabaseEntity> getLatestId(Pageable pageable);

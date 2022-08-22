@@ -45,7 +45,7 @@ public class EDocumentServiceImpl implements LibraryDocumentService {
 
         Pageable pageable = PageRequest.of(page-1, limit);
 
-        List<DocumentEntity> allInfo = resourceRepository.findByIsActive(1);
+        List<DocumentEntity> allInfo = resourceRepository.findByIsActiveOrderByIdDesc(1);
 
         Integer count = resourceRepository.countAllResource();
 

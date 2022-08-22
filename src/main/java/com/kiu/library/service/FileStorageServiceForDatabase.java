@@ -23,7 +23,7 @@ public class FileStorageServiceForDatabase {
 
     @Autowired
     public FileStorageServiceForDatabase() {
-        this.fileStorageLocation = Paths.get("../../../../../../../../xampp/htdocs/images/database")
+        this.fileStorageLocation = Paths.get("../../../../../../../../xampp/htdocs/KIU_WEB/images/database")
                 .toAbsolutePath().normalize();
 
         try {

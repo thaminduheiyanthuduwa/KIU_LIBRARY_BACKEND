@@ -23,7 +23,7 @@ public class FileStorageService {
 
     @Autowired
     public FileStorageService() {
-        this.fileStorageLocation = Paths.get("../../../../../../../../xampp/htdocs/images/upload_files")
+        this.fileStorageLocation = Paths.get("../../../../../../../../xampp/htdocs/KIU_WEB/images/upload_files")
                 .toAbsolutePath().normalize();
 
         try {
@@ -33,7 +33,7 @@ public class FileStorageService {
         }
     }
 
-    public String storeFile(int id, MultipartFile file) {
+    public String storeFile(int id, MultipartFile file, String type) {
         // Normalize file name
         String fileName = StringUtils.cleanPath(id+"_"+file.getOriginalFilename().trim().replaceAll("\\s",""));
 
@@ -53,7 +53,12 @@ public class FileStorageService {
         }
     }
 
-    public Resource loadFileAsResource(String fileName) {
+    public Resource loadFileAsResource(String fileName, String path) {
+
+        if (path == "concern"){
+
+        }
+
         try {
             Path filePath = this.fileStorageLocation.resolve(fileName).normalize();
             Resource resource = new UrlResource(filePath.toUri());

@@ -15,7 +15,7 @@ public interface DocumentRepository extends JpaRepository<DocumentEntity, Intege
 
     List<DocumentEntity> findAll();
 
-    List<DocumentEntity> findByIsActive(@Param("isActive") Integer active);
+    List<DocumentEntity> findByIsActiveOrderByIdDesc(@Param("isActive") Integer active);
 
     @Query("select t from DocumentEntity t order by t.id desc")
     List<DocumentEntity> getLatestId(Pageable pageable);
