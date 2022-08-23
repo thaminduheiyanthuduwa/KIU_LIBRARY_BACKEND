@@ -16,6 +16,8 @@ public interface ConcernService {
 
     AllConcernInfo getAllInfo(int page, int limit, String sort) throws IOException;
 
+    AllConcernInfo getAllInfoById(int id) throws IOException;
+
     //    AllDatabaseInfo getInfoById(int id) throws IOException;
 //
 //    SaveEDatabaseResponse saveInfo(SaveDatabaseRequest saveRequest) throws IOException;

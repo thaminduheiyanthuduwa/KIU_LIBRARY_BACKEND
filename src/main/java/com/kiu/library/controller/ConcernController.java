@@ -37,6 +37,14 @@ public class ConcernController {
 
     }
 
+
+    @RequestMapping(value = "/get-all-info-by-id" ,method = RequestMethod.GET ,headers="Accept=application/json")
+    public AllConcernInfo getResourceById(@RequestParam(value = "id") int id) throws IOException {
+
+        return concernService.getAllInfoById(id);
+
+    }
+
     @GetMapping("/downloadFile")
     public ResponseEntity<Resource> downloadFile(@RequestParam(value = "data") String fileName, HttpServletRequest request) {
         // Load file as Resource

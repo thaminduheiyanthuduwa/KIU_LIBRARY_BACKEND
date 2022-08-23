@@ -74,6 +74,37 @@ public class ConcernServiceImpl implements ConcernService {
     }
 
     @Override
+    public AllConcernInfo getAllInfoById(int id) throws IOException {
+
+
+        Optional<ConcernEntity> allInfoObj = concernRepository.findById(id);
+
+        ConcernEntity info = allInfoObj.get();
+
+        Integer count = concernRepository.countAllResource();
+
+        ConcernDataInfo resourceDataInfo = new ConcernDataInfo();
+        resourceDataInfo.setTotal(count);
+
+        List<ConcernInfo> listOfResources = new ArrayList<>();
+
+        ConcernInfo concernInfo = new ConcernInfo(info.getId(), info.getStudentId(),
+                info.getConcern(), info.getConcernId(), info.getStatus(), info.getFile(),
+                info.getHeadApproval(), info.getDate(), info.getIsActive(), info.getFinalDoc(), info.getIsPublic());
+
+        listOfResources.add(concernInfo);
+
+        resourceDataInfo.setItems(listOfResources);
+
+        AllConcernInfo allResourceInfo = new AllConcernInfo();
+        allResourceInfo.setCode(20000);
+        allResourceInfo.setData(resourceDataInfo);
+
+        return allResourceInfo;
+
+    }
+
+    @Override
     public UploadFileResponse uploadFiles(int id, MultipartFile[] cover) {
 
         return uploadFile(id, Arrays.asList(cover).get(0));
