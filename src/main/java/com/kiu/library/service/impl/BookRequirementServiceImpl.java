@@ -223,7 +223,7 @@ public class BookRequirementServiceImpl implements BookRequirementService {
 
         resourceRepository.saveAll(listOfResources);
 
-        return new SaveResourceResponse(20000, "success");
+        return new SaveResourceResponse(200, "success");
 
     }
 
