@@ -56,12 +56,49 @@ public class PhysicalBookServiceImpl implements PhysicalBookService {
         PhysicalDataBookReqInfo resourceDataInfo = new PhysicalDataBookReqInfo();
         resourceDataInfo.setTotal(count);
 
-        List<PhysicalBookInfo> listOfResources = new ArrayList<>();
+        List<PhysicalBookInfoNew> listOfResources = new ArrayList<>();
+
+
+
+
+        List<StudentInfoObj> bookList = new ArrayList<>();
+
+
+        BufferedReader reader;
+        try {
+            reader = new BufferedReader(new FileReader(
+                    "file1.txt"));
+            String line = reader.readLine();
+            while (line != null) {
+
+                line = reader.readLine();
+
+                if (line != null) {
+                    String[] splitValue = line.split("\t");
+
+                    StudentInfoObj studentInfoObj1 = new StudentInfoObj();
+                    studentInfoObj1.setId(Integer.parseInt(splitValue[0]));
+                    studentInfoObj1.setName(splitValue[1]);
+                    bookList.add(studentInfoObj1);
+                }
+
+
+            }
+            reader.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+
 
         for (PhysicalBookEntity info : allInfo) {
 
-            PhysicalBookInfo resourceInfo = new PhysicalBookInfo(info.getId(),
-                    info.getStudentId(),info.getBookId(),info.getReturnDate(),
+            Optional<StudentDetailEntity> studentList = studentRepository.findById(info.getStudentId());
+
+            StudentInfoObj book = bookList.stream().filter(studentInfoObj -> studentInfoObj.getId() == info.getBookId()).findFirst().orElse(null);
+
+            PhysicalBookInfoNew resourceInfo = new PhysicalBookInfoNew(info.getId(),
+                    studentList.get().getEmail(),book.getName(),info.getReturnDate(),
                     info.getStatus(), info.getFine(), info.getDateTime());
 
             listOfResources.add(resourceInfo);
@@ -90,7 +127,7 @@ public class PhysicalBookServiceImpl implements PhysicalBookService {
 
         for (StudentDetailEntity obj : studentList) {
             StudentInfoObj studentInfoObj1 = new StudentInfoObj();
-            studentInfoObj1.setId(obj.getStudentId());
+            studentInfoObj1.setId(obj.getId());
             studentInfoObj1.setName(obj.getEmail());
             allInfo.add(studentInfoObj1);
         }

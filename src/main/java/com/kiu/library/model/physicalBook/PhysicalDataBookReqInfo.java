@@ -3,6 +3,7 @@ package com.kiu.library.model.physicalBook;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.kiu.library.model.resouceModel.BookResourceInfo;
 import com.kiu.library.model.resouceModel.PhysicalBookInfo;
+import com.kiu.library.model.resouceModel.PhysicalBookInfoNew;
 
 import java.util.List;
 
@@ -12,7 +13,7 @@ public class PhysicalDataBookReqInfo {
     private Integer total;
 
     @JsonProperty("items")
-    private List<PhysicalBookInfo> items;
+    private List<PhysicalBookInfoNew> items;
 
     public Integer getTotal() {
         return total;
@@ -22,11 +23,11 @@ public class PhysicalDataBookReqInfo {
         this.total = total;
     }
 
-    public List<PhysicalBookInfo> getItems() {
+    public List<PhysicalBookInfoNew> getItems() {
         return items;
     }
 
-    public void setItems(List<PhysicalBookInfo> items) {
+    public void setItems(List<PhysicalBookInfoNew> items) {
         this.items = items;
     }
 }
