@@ -120,7 +120,7 @@ public class PhysicalBookServiceImpl implements PhysicalBookService {
                 line = reader.readLine();
 
                 if (line != null) {
-                    String[] splitValue = line.split(" ");
+                    String[] splitValue = line.split("\t");
 
                     StudentInfoObj studentInfoObj1 = new StudentInfoObj();
                     studentInfoObj1.setId(Integer.parseInt(splitValue[0]));
