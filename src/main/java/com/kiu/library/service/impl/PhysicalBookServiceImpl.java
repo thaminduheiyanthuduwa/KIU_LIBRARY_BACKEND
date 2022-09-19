@@ -2,6 +2,7 @@ package com.kiu.library.service.impl;
 
 import com.kiu.library.entity.BookRequirementEntity;
 import com.kiu.library.entity.PhysicalBookEntity;
+import com.kiu.library.entity.StudentDetailEntity;
 import com.kiu.library.model.physicalBook.PhysicalBookReqInfo;
 import com.kiu.library.model.physicalBook.PhysicalDataBookReqInfo;
 import com.kiu.library.model.physicalBook.StudentInfo;
@@ -10,6 +11,7 @@ import com.kiu.library.model.resouceModel.*;
 import com.kiu.library.payload.UploadFileResponse;
 import com.kiu.library.repository.PhysicalBookRepository;
 import com.kiu.library.repository.RequirementRepository;
+import com.kiu.library.repository.StudentRepository;
 import com.kiu.library.service.BookRequirementService;
 import com.kiu.library.service.FileStorageService;
 import com.kiu.library.service.PhysicalBookService;
@@ -35,6 +37,9 @@ public class PhysicalBookServiceImpl implements PhysicalBookService {
 
     @Autowired
     private PhysicalBookRepository resourceRepository;
+
+    @Autowired
+    private StudentRepository studentRepository;
 
     @Override
     @Transactional
@@ -74,21 +79,19 @@ public class PhysicalBookServiceImpl implements PhysicalBookService {
     @Transactional
     public StudentInfo getStudentInfo() {
 
+        List<StudentDetailEntity> studentList = studentRepository.findAll();
+
         StudentInfo resourceDataInfo = new StudentInfo();
         resourceDataInfo.setCode(200);
 
         List<StudentInfoObj> allInfo = new ArrayList<>();
 
-        StudentInfoObj studentInfoObj1 = new StudentInfoObj();
-        studentInfoObj1.setId(1);
-        studentInfoObj1.setName("Test1");
-        allInfo.add(studentInfoObj1);
-
-        StudentInfoObj studentInfoObj2 = new StudentInfoObj();
-        studentInfoObj2.setId(2);
-        studentInfoObj2.setName("Test2");
-        allInfo.add(studentInfoObj2);
-
+        for (StudentDetailEntity obj : studentList) {
+            StudentInfoObj studentInfoObj1 = new StudentInfoObj();
+            studentInfoObj1.setId(obj.getStudentId());
+            studentInfoObj1.setName(obj.getEmail());
+            allInfo.add(studentInfoObj1);
+        }
 
         resourceDataInfo.setData(allInfo);
 
