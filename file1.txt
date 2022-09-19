@@ -1,36 +1,36 @@
 Book Number Title
 0 Advanced Accountancy vol 1
-1 Cunningham's Manual of Practical Anatomy
-2 Cunningham's Manual of Practical Anatomy
-3 Cunningham's Manual of Practical Anatomy
-4 Cunningham's Manual of Practical Anatomy
-5 Cunningham's Manual of Practical Anatomy
-6 Cunningham's Manual of Practical Anatomy
-7 Cunningham's Manual of Practical Anatomy
-8 Cunningham's Manual of Practical Anatomy
-9 Cunningham's Manual of Practical Anatomy
-10 Cunningham's manual of practical
+1 Cunningham\'s Manual of Practical Anatomy
+2 Cunningham\'s Manual of Practical Anatomy
+3 Cunningham\'s Manual of Practical Anatomy
+4 Cunningham\'s Manual of Practical Anatomy
+5 Cunningham\'s Manual of Practical Anatomy
+6 Cunningham\'s Manual of Practical Anatomy
+7 Cunningham\'s Manual of Practical Anatomy
+8 Cunningham\'s Manual of Practical Anatomy
+9 Cunningham\'s Manual of Practical Anatomy
+10 Cunningham\'s manual of practical
 11 HumanAnatomy and Physiology for Nuing
 12 HumanAnatomy and Physiology for Nuing
 13 HumanAnatomy and Physiology for Nuing
 14 HumanAnatomy and Physiology for Nuing
 15 HumanAnatomy and Physiology for Nuing
 16 HumanAnatomy and Physiology for Nuing
-17 Sear's Anatomy and Physiology for Nues- 6-ed
-18 Sear's Anatomy and Physiology for Nues- 6-ed
-19 Sear's Anatomy and Physiology for Nues- 6-ed
-20 Sear's Anatomy and Physiology for Nues- 6-ed
-21 Sear's Anatomy and Physiology for Nues- 6-ed
-22 Cunningham's Manual of Practical Anatomy
-23 Cunningham's Manual of Practical Anatomy
-24 Cunningham's Manual of Practical Anatomy-vol-3
-25 Cunningham's manual of practical....
-26 Cunningham's Manual of Practical Anatomy vol-3
+17 Sear\'s Anatomy and Physiology for Nues- 6-ed
+18 Sear\'s Anatomy and Physiology for Nues- 6-ed
+19 Sear\'s Anatomy and Physiology for Nues- 6-ed
+20 Sear\'s Anatomy and Physiology for Nues- 6-ed
+21 Sear\'s Anatomy and Physiology for Nues- 6-ed
+22 Cunningham\'s Manual of Practical Anatomy
+23 Cunningham\'s Manual of Practical Anatomy
+24 Cunningham\'s Manual of Practical Anatomy-vol-3
+25 Cunningham\'s manual of practical....
+26 Cunningham\'s Manual of Practical Anatomy vol-3
 27 Anatomy and Physiology for Nues
 28 Anatomy and Physiology for Nues
 29 Anatomy and Physiology for Nues
 30 anatomy & Physiology for allied health science
-31 Sear's Anatomy and Physiology for Allied Health Sciencesues- 6-ed
+31 Sear\'s Anatomy and Physiology for Allied Health Sciencesues- 6-ed
 32 Anatomy and Physiology for Nues
 33 Anatomy and Physiology for Nues
 34 Prctical Physiology
@@ -145,14 +145,14 @@ Book Number Title
 140 Nuing Arts-Principle & Practice
 141 Nuing Arts-Principle & Practice
 142 Nuing Arts-Principle & Practice
-143 Stephanie's Principles & practice Of Nuing
-144 Stephanie's Principles & practice Of Nuing
+143 Stephanie\'s Principles & practice Of Nuing
+144 Stephanie\'s Principles & practice Of Nuing
 145 Nuing: Practice & Pulic Health Administration-Current Concepts & Trends
 146 Nuing Care of the Sick
 147 Nuing Care of the Sick
 148 Nuing Care of the Sick-A Guide for Nues Working in small Rural Hospitals
 149 Advanced practice in Health Care
-150 Student Nues' Guide to Professional Practoice & Developement
+150 Student Nues\' Guide to Professional Practoice & Developement
 151 Primary nuing Practice
 152 Nuing Solved Question Pape for Bsc Nuing 4 th Year(2009-1999)
 153 Nuing Solved Question Pape for Bsc Nuing 4 th Year(2009-1999)
@@ -163,8 +163,8 @@ Book Number Title
 158 Advanced Nuing Practice -Essential Knowledge for the Peon
 159 Disaster Nuing A handbook ofr Practice
 160 Freedom to Practise
-161 Stephanie's Principles & practice Of Nuing-Nuing Arts Procedures
-162 Stephanie's Principles & practice Of Nuing
+161 Stephanie\'s Principles & practice Of Nuing-Nuing Arts Procedures
+162 Stephanie\'s Principles & practice Of Nuing
 163 Principles and Practice of Adult Health Nuing
 164 Lippincott Manual of Nuing Practing -9 ed
 165 Lippincott Manual of Nuing Practing -9 ed
@@ -187,7 +187,7 @@ Book Number Title
 182 Emergency Medicine
 183 Nuing Arts Question & Answe
 184 Notes on Nuing
-185 Fundamental Aspects of Childre;s & Young People's Nuing Procedures
+185 Fundamental Aspects of Childre;s & Young People\'s Nuing Procedures
 186 Theoretical Nuresing Development & Progress
 187 Serviving Nuing
 188 Values Clarification In Nuring
@@ -252,7 +252,7 @@ Book Number Title
 247 A Guide to Curriculum Review for Basic Nuing Education
 248 Quality Work Environments for Nue & Patient Safety
 249 Fundations of Nuing
-250 The Nue-patient encounter & the Patients' State
+250 The Nue-patient encounter & the Patients\' State
 251 Research Methodology for Nues
 252 Research Methodology for nues
 253 Research Methodology for nues
@@ -303,12 +303,12 @@ Book Number Title
 298 Essentials of critical care of Nuing
 299 Essentials of critical care of Nuing
 300 Essentials of critical care of Nuing
-301 Churchill Livingstone's Dictionary of Nuing
-302 Churchill Livingstone's Dictionary of Nuing
-303 Churchill Livingstone's Dictionary of Nuing
-304 Bailliere's Nues Dictionary
-305 Bailliere's Nues Dictionary
-306 Bailliere's Nurses dictionary
+301 Churchill Livingstone\'s Dictionary of Nuing
+302 Churchill Livingstone\'s Dictionary of Nuing
+303 Churchill Livingstone\'s Dictionary of Nuing
+304 Bailliere\'s Nues Dictionary
+305 Bailliere\'s Nues Dictionary
+306 Bailliere\'s Nurses dictionary
 307 Textbook  of Medical & Surgical Nuing
 308 Textbook  of Medical & Surgical Nuing
 309 Clinical Reproductive Medcine
@@ -323,7 +323,7 @@ Book Number Title
 318 The Natural Pharmacist-Your Comlete Guide to...
 319 Health & Cultures
 320 Will Nues call the Shorts
-321 Towards Comprehensive Women's Health
+321 Towards Comprehensive Women\'s Health
 322 Community nursing and health care of educational
 323 The NetworkSociety and the Demand of Educational Changes
 324 Nuing of Sociology
@@ -339,7 +339,7 @@ Book Number Title
 334 Medicine for Nues 3 ed
 335 Psychology for Nues
 336 Psychology for nues
-337 Campbell's Physiology Notes for Nues
+337 Campbell\'s Physiology Notes for Nues
 338 Introductory Psychology for Nuing & Allied Health Sciences
 339 Essentials of Psychology For Nues
 340 Essentials of Psychology For Nues
@@ -386,11 +386,11 @@ Book Number Title
 381 Textbook of Community Health for Health Inspecto
 382 Trick Or Treat
 383 Infection & Immunity
-384 Women's Rirghts WATCH Year Report
+384 Women\'s Rirghts WATCH Year Report
 385 Developing Holistic Care for Loing teerm Conditions
 386 Community Health Nuing-2 ed
 387 Community Health Nuing-Concepts & Practice
-388 Men's sexual graduate diploma in family health
+388 Men\'s sexual graduate diploma in family health
 389 Annotated Bibliography of Health
 390 cordiovascular health ...
 391 Nuing Communication and Educational Technology
@@ -434,19 +434,19 @@ Book Number Title
 430 A Guide to Midwiferay
 431 Becming A midwife
 432 Becoming A Midwife
-433 Handboo for Brunner & Suddarth's Txrbook of Medical-Surgical  Nuing
+433 Handboo for Brunner & Suddarth\'s Txrbook of Medical-Surgical  Nuing
 434 Phantom Notes on Surgical Nuing
 435 Cardiac Surgery Essentials for Critical Care nuing
 436 Essentials of Medical Surgical NuingComputer for Nues
 437 Essentials of Medical Surgical Nuing
-438 Moroneys' Surgeery for Nues
-439 Moroney's Surgery for nues
+438 Moroneys\' Surgeery for Nues
+439 Moroney\'s Surgery for nues
 440 MEDICAL SURGICAL NURSING
-441 Brunner & Suddarth's Textbook of Medical Surgical Nuing
-442 Brunner &Suddarth's Textbook of Medical-Surgical Nuing
-443 Philips' Medical Nuing 8 ed
-444 Philips' Medical Nuing 8 ed
-445 Philips' Medical Nuing 8 ed
+441 Brunner & Suddarth\'s Textbook of Medical Surgical Nuing
+442 Brunner &Suddarth\'s Textbook of Medical-Surgical Nuing
+443 Philips\' Medical Nuing 8 ed
+444 Philips\' Medical Nuing 8 ed
+445 Philips\' Medical Nuing 8 ed
 446 Textbook of Growth & Development for Nuing Students
 447 Textbook of Growth & Development for Nuing Students
 448 Psychiatry for Nues
@@ -473,7 +473,7 @@ Book Number Title
 469 Psychiatry
 470 Essentials of Perioperative Nuuing
 471 Community Mental Health Care
-472 Broadribb's Introductory
+472 Broadribb\'s Introductory
 473 Core Curriculam for Pediatric Emergency Nuing
 474 A Comprehensive Textbook of Midwifery
 475 A Comprehensive Textbook of Midwifery
@@ -484,7 +484,7 @@ Book Number Title
 480 Gynaecology
 481 Towards Healthy Aging-3 ed
 482 Nuing Care of the Aged
-483 Lewis's Medical Surgical Nuing
+483 Lewis\'s Medical Surgical Nuing
 484 Health Assesssment of the Older Adult  t
 485 Nuing Care of Older Adults-Theory & Practice
 486 Carring The Elderly In Divee Care Settings
@@ -593,7 +593,7 @@ Book Number Title
 589 From Birth to sixteen
 590 Commonwealth Diploma in Youth in Development Work
 591 Nuing As Therapy
-592 The Treatment of Anxiety Disorde Clinician's Guide & Patient anuals
+592 The Treatment of Anxiety Disorde Clinician\'s Guide & Patient anuals
 593 Relationship The Heart of Helping People
 594 Prevalence of Gender Violence
 595 National Report on Violence & Health in Sri lanka
@@ -610,7 +610,7 @@ Book Number Title
 606 Microbiology for Nues-2 nd Ed
 607 Slma guidelines & information on vaccines
 608 Slma guidelines & information on vaccines
-609 Women's way of Knowing
+609 Women\'s way of Knowing
 610 Official Study Guide for the CGFNS Qualifying Exam
 611 A Cross Cultural Introduction to Bioethics
 612 Nadi-Yoga an Heiligen Plaatzen & Gesunde Nahrung Aus der Natur
@@ -622,8 +622,8 @@ Book Number Title
 618 Textbook of Microbiology
 619 Textbook of Microbiology
 620 Brock Biology of Microorgnisms
-621 Mims' Medical Microbiology
-622 Advocacy A Nues' Guide
+621 Mims\' Medical Microbiology
+622 Advocacy A Nues\' Guide
 623 Sinhala Shabdakoshaya-25 kandaya
 624 Sinhala Shabdakoshaya-25 kandaya
 625 Sinhala Shabdakoshaya-25 kandaya
@@ -701,11 +701,11 @@ Book Number Title
 697 Nues as Educator
 698 Nues as Educator
 699 Nues as Educator
-700 Cunningham's Manual of Practical Anatomy vol-1
-701 Cunningham's Manual of Practical Anatomy
-702 Cunningham's Manual of Practical Anatomy
-703 Cunningham's Manual of Practical Anatomy
-704 Cunningham's Manual of Practical Anatomy
+700 Cunningham\'s Manual of Practical Anatomy vol-1
+701 Cunningham\'s Manual of Practical Anatomy
+702 Cunningham\'s Manual of Practical Anatomy
+703 Cunningham\'s Manual of Practical Anatomy
+704 Cunningham\'s Manual of Practical Anatomy
 705 Sayura Meda Dupathak WedaOba?
 706 Sayura Meda Dupathak WedaOba?
 707 Anathurin Athmidennatanam,
@@ -821,7 +821,7 @@ Book Number Title
 817 Pharmacology-Connections to Nuing Practice
 818 Methisabaye Ranahanda Nimal
 819 Textbook of Sociology for Nuing Students
-820 The Layman's Guide to Foot & Heel Pain
+820 The Layman\'s Guide to Foot & Heel Pain
 821 Medical Genetics
 822 Wrist Ankle Acupuncture
 823 Clinical Acupuncture
@@ -837,7 +837,7 @@ Book Number Title
 833 Principles & practice of Rheumatology
 834 Clnical Biochemistry
 835 Cognitive Psychology
-836 The gods I' am Yet ot meet
+836 The gods I\' am Yet ot meet
 837 What The Buddha Taught
 838 Living with violence
 839 Asian Security
@@ -872,15 +872,15 @@ Book Number Title
 868 Introductory Medical-Surgical Nuing
 869 Introductory Medical-Surgical Nuing
 870 Introductory Medical-Surgical Nuing
-871 Cunningham's Manual of Practical Anatomy
+871 Cunningham\'s Manual of Practical Anatomy
 872 77 prague Legends-1s Ed
 873 Dacie & Lewis Practical Haematology
 874 Dacie & Lewis Practical Haematology
 875 The Behind the Syndrome
 876 House Insignia of Nacient Prague
-877 Gray's Anatomy for Students
+877 Gray\'s Anatomy for Students
 878 LifeExtension revoulution
-879 The Layman's Guide to  Chronic DiseasesFoot & Heel Pain
+879 The Layman\'s Guide to  Chronic DiseasesFoot & Heel Pain
 880 Infection & Immunity
 881 Biochemistry &Clinical Pathology
 883 Handbook of Psycological Assesment
@@ -985,13 +985,13 @@ Book Number Title
 982 KIU-Intensive English
 983 Modern Reflexology
 984 Chinese Acupuncture & Moxibustion
-985 Mahajan's Methods in Biostatistics for Medical Students & Research Worke
-986 Mahajan's Methods in Biostatistics for medicala Students & Research Works
+985 Mahajan\'s Methods in Biostatistics for Medical Students & Research Worke
+986 Mahajan\'s Methods in Biostatistics for medicala Students & Research Works
 987 Communication & Educational Technology for nues
 988 Nuing Research
 989 nuing research
 990 Textbook of Nuing Research &Statistics
-991 Lippincott's Illustrated Reviews Biochemistry-6 th ed
+991 Lippincott\'s Illustrated Reviews Biochemistry-6 th ed
 992 Clinical Pharmaclogy
 993 Textbook of PATHOLOGY- 7TH ED
 994 Mcqs in Biomechanics & Occupational Therapy
@@ -1044,7 +1044,7 @@ Book Number Title
 1041 Managerial Economics principles
 1042 Managerial Economics principles
 1043 Vimanavasthu Prakaranaya
-1044 Dunn's Surgical Diagnosis and management
+1044 Dunn\'s Surgical Diagnosis and management
 1045 Pathology Illustrated
 1046 Handbook of Anaesthesia
 1047 Oxford Handbook of Clinical Surgery
@@ -1072,7 +1072,7 @@ Book Number Title
 1069 Undetanding Emotions
 1070 Principles of Pediatric Nuin-5 th ed d
 1071 Health Communication- 3rd ed
-1072 Mary Sherdan's
+1072 Mary Sherdan\'s
 1073 Health Psychology-The social Context of Health
 1074 Physiology & Anatomy for Nues & Healthcare Practitione
 1075 Identifying Emotional Psychological Abuse
@@ -1126,7 +1126,7 @@ Book Number Title
 1123 BNF for childre-2010-2011
 1124 Marketing Management-15 th edi
 1125 Principles of Marketing
-1126 Economis for Today's world
+1126 Economis for Today\'s world
 1127 Principles of Macroecnomics- 5 ht edi
 1128 Theories of Peonality
 1129 Managerial Satistics
@@ -1185,13 +1185,13 @@ Book Number Title
 1182 Psychological Testing
 1183 Business Enviroment
 1184 Business Environment
-1185 Gray's Anatomy for Students
+1185 Gray\'s Anatomy for Students
 1186 Organizational Behavior
 1187 Organizational Behavior
 1188 Management Information Systems
 1189 Management Information Systems
-1190 Ganong's Review of Medical Physiology
-1191 Ganong's Review of Medical Physiology
+1190 Ganong\'s Review of Medical Physiology
+1191 Ganong\'s Review of Medical Physiology
 1192 Psychological Testing
 1193 Chithrapata nishpadanaya saha pasuthala nirmanaya
 1194 Chithrapata nishpadanaya saha pasuthala nirmanaya
@@ -1204,7 +1204,7 @@ Book Number Title
 1201 The Parliment of sri lanka Pa
 1202 management and cost Accounting
 1203 management and cost Accounting
-1204 Gary's Anatomy
+1204 Gary\'s Anatomy
 1205 Text book of pathlogy
 1206 Text book of pathlogy
 1207 Text book of pathlogy
@@ -1212,7 +1212,7 @@ Book Number Title
 1209 Robbins patholigic Basis of Dissease
 1210 Robbins patholigic Basis of Dissease
 1211 Robbins patholigic Basis of Dissease
-1212 Hoffbrand's Essential HAEMATOLOGY
+1212 Hoffbrand\'s Essential HAEMATOLOGY
 1213 Lippincot illustraed reviews biochemisstry
 1214 PHARMACOLOGY 8 TH DEI
 1215 Harpe illusrtated Biochemistry
@@ -1228,7 +1228,7 @@ Book Number Title
 1225 Ape Kalaye Deshapalanaye Arthikaya
 1226 Clinical pharmacology
 1227 Mims, Medical Microbiology
-1228 Manson's Tropical Diseases
+1228 Manson\'s Tropical Diseases
 1229 Cellular & Molecular IMMUNOLOGY
 1230 A fool and his money
 1231 Fortune Strategy
@@ -1297,22 +1297,22 @@ Book Number Title
 1294 Human resource management
 1295 Organizationa Behavior
 1296 Organizationa Behavior-16 ed
-1297 Horngren's Cost Accounting
+1297 Horngren\'s Cost Accounting
 1298 macroeconomics
 1299 Principles of Macroeconnmics with coueMate
 1300 management and cost Accounting
 1301 Principles of marketting
 1302 Reaserch Methodology
-1303 Gray's Anatomy for students
+1303 Gray\'s Anatomy for students
 1304 Lippingcott Q & A Review NCLEX-RN
 1305 Saunde Q & A Review for the NCLEX-RN Examination
-1306 Essentials of kumar & Clarkk's Clinical Medicine
+1306 Essentials of kumar & Clarkk\'s Clinical Medicine
 1307 Rang& Dale Pharmacology 8 ed
 1308 The Concise Handbo0k of Human A
 1309 Pre Test Obstetrics & Gynecology
 1310 Business  communications
 1311 Psychiatry
-1312 Hacker & Moore's Essentials of Obstetrics & Gynaecology
+1312 Hacker & Moore\'s Essentials of Obstetrics & Gynaecology
 1313 Text book of Gyanecology
 1314 Medicine for outdoo
 1315 Donald School Text book of Ultrasound in Obstrtrics & Gynaecology
@@ -1413,7 +1413,7 @@ Book Number Title
 1410 Clinical Pharmacology
 1411 Clinical Pharmacology
 1412 Obstetrics & gynecology
-1413 Paniker 's Textbookof Medical parasitology
+1413 Paniker \'s Textbookof Medical parasitology
 1414 A Manual of Laboratory & Diagnostic Tests
 1415 Shoter Oxford Textbook of Psychiatry
 1416 @ Marketing
@@ -1465,7 +1465,7 @@ Book Number Title
 1462 Current Issues In Nursing
 1463 Nursing Theorists and their work
 1464 Introductory-MEDICAL -SURGICAL NURSING
-1465 Mims'MEDICAL MICROBIOLOGY
+1465 Mims\'MEDICAL MICROBIOLOGY
 1466 Nursing care of Children
 1467 Heladiv nam gam waruna
 1468 Adyapana Kalamanakarana Padartha kshaya-Dictionary of education Managemnet
@@ -1531,20 +1531,20 @@ Book Number Title
 1528 Robbins & cotran Pathologic Basis of Disease vol 11
 1529 Textbook of Pathology
 1530 Pathology Quick Review & Mcqs
-1531 Mim's Medical Microbiology
-1532 Mim's Medical Microbiology
+1531 Mim\'s Medical Microbiology
+1532 Mim\'s Medical Microbiology
 1533 Practical Hematology
 1534 Practical Hematology
 1535 Basis of Pediatrics
-1536 Hoffbrand's Essential HEAMATOLOGY
-1537 Hoffbrand's Essential HEAMATOLOGY
+1536 Hoffbrand\'s Essential HEAMATOLOGY
+1537 Hoffbrand\'s Essential HEAMATOLOGY
 1538 Obstetrics & Gynecology
 1539 Obstetrics & gynecology
-1540 Harper's Illustrated Biochemistry
-1541 Harper's Illustrated  Biochemistry
-1542 Harper's Illustrated  Biochemistry
-1543 Rang & d=Dale's Pharmacology
-1544 Rang & dale's Pharmacology
+1540 Harper\'s Illustrated Biochemistry
+1541 Harper\'s Illustrated  Biochemistry
+1542 Harper\'s Illustrated  Biochemistry
+1543 Rang & d=Dale\'s Pharmacology
+1544 Rang & dale\'s Pharmacology
 1545 Obstetrics illustrated
 1546 obstetrics Illustrated
 1547 BNF-76
@@ -1622,7 +1622,7 @@ Book Number Title
 1619 Anatomy MCQS
 1620 Business Statistics-A first course
 1621 Basic Immunology
-1622 Lippincott's Illustrated Reviews
+1622 Lippincott\'s Illustrated Reviews
 1623 Corporate financial Strategy
 1624 Nurse as educator
 1625 Ross & Wilson Anatomy & Physiology
@@ -1639,27 +1639,27 @@ Book Number Title
 1636 Textbooks of PATHOLOGY
 1637 Robbins & cotran Pathologic Basis of Disease-1 vol
 1638 Robbins & cotran Pathologic Basis of Disease-1 vol
-1639 Hoff brand's Essential Hematology
-1640 Rang & Dale's PHARMACOLOGY
+1639 Hoff brand\'s Essential Hematology
+1640 Rang & Dale\'s PHARMACOLOGY
 1641 Clinical Pharmacology
 1642 BNF 77 ( mar-set 2019
-1643 Gray's Anatomy for Students
-1644 ABRAHAMS' & MCmINNS'S CLINICAL ATLAS OF human Anatomy
+1643 Gray\'s Anatomy for Students
+1644 ABRAHAMS\' & MCmINNS\'S CLINICAL ATLAS OF human Anatomy
 1645 Sociology for Nurses
 1646 Textbook of Mental Health Nursing -vol 1
 1647 Textbook of Mental Health Nursing -vol 11
 1648 Community Medicine
 1649 Nursing Now
 1650 Hospital administration
-1651 Marlow's Textbook of Pediatric nursing
-1652 A textbook of Children's & Young People's Nursing.
+1651 Marlow\'s Textbook of Pediatric nursing
+1652 A textbook of Children\'s & Young People\'s Nursing.
 1653 Principles & Practice of Psychiatric  Nursing
 1654 Textbook of Nursing Research & Staticstics
 1655 psychology
-1656 Wong's Essentials of Pediatric Nursing
+1656 Wong\'s Essentials of Pediatric Nursing
 1657 Nursing care Planning Resource
 1658 Oxford handbook of Nutrition & Dietetics
-1659 Williams'Basic Nutrition & Dieet Therapy
+1659 Williams\'Basic Nutrition & Dieet Therapy
 1660 Self Assesment & review PSM & Biostatistics
 1661 Management & cost Accounting
 1662 SOSS Statistics Version 22-A Practice Guide
@@ -1677,7 +1677,7 @@ Book Number Title
 1674 The Strategy Focused organization
 1675 Strategy MAPS
 1676 Human Resource Management:Gaining Competitive Advantage
-1677 Managing Human Resource:Productivity'Quality of work Life Profit
+1677 Managing Human Resource:Productivity\'Quality of work Life Profit
 1678 Business Ethics
 1679 Social Psychology & Human Nature
 1680 Services Marketing
@@ -1696,13 +1696,13 @@ Book Number Title
 1693 Management & cost Accounting
 1694 Understanding Statistics in the Behavioral Sciences
 1695 Pathologic Basis of Disease
-1696 Hoff brand's Hematology
+1696 Hoff brand\'s Hematology
 1697 cellular & molecular Immunology
-1698 Ganong's Review of Medical Physiology
-1699 Harper's Illustrated Biochemistry
+1698 Ganong\'s Review of Medical Physiology
+1699 Harper\'s Illustrated Biochemistry
 1700 Clinical Dietetics & Nutrition
-1701 Paniker's Textbook of Medical Parasitology
-1702 Paniker's Textbook of Medical Parasitology
+1701 Paniker\'s Textbook of Medical Parasitology
+1702 Paniker\'s Textbook of Medical Parasitology
 1703 The Washington  Manual of Critical Care
 1704 Oxford Desk Reference Geriatric Medicine
 1705 Atikings Physic Chemistry
@@ -1716,7 +1716,7 @@ Book Number Title
 1713 Ross & Wilson Anatomy & Physiology
 1714 Ross & Wilson Anatomy & Pharmacology
 1715 cellular & molecular Immunology
-1716 Ganong's Review of Medical Physiology
+1716 Ganong\'s Review of Medical Physiology
 1717 Robbins & cotran Pathologic Basis of Disease- vol 2
 1718 Research Methods for Business students
 1719 Robbins Basic Pathology
@@ -1730,14 +1730,14 @@ Book Number Title
 1727 Integrating and Change Strategies for Helpers
 1728 psychology and contemporary life Human Adjustment
 1729 Nurse as educator
-1730 lippingcott's
+1730 lippingcott\'s
 1731 Rang & Dale Pharmacology
 1732 slma GUIDELINES & information on vaccines
 1733 Understanding Nursing Research
 1734 Community Health Nursing
 1735 psychology
 1736 Robbins Basic Pathology
-1737 Harper's Illustrated Biochemistry
+1737 Harper\'s Illustrated Biochemistry
 1738 Eight years in Ceylon
 1739 Images of Sri Lanka through american eyes
 1740 Ceylon
@@ -1751,13 +1751,13 @@ Book Number Title
 1749 The Accidental American- Tony Blair and the Presidency
 1750 Your guide to stock and shares
 1751 How the experts buy stocks for profit
-1752 Ganong's Review of Medical Physiology
+1752 Ganong\'s Review of Medical Physiology
 1753 Accounting In A Business Context
 1754 Medical Mycology
 1755 Evil Allergies
 1756 The Practice of Nursing Research
 1757 Understanding Nursing Research
-1758 Mahajan's Methods in Bio statistics for medical students & research workers
+1758 Mahajan\'s Methods in Bio statistics for medical students & research workers
 1759 A Laboratory Guide to Basic Microbiology Techniques and Laboratory conduct
 1760 A Laboratory Guide to Basic Microbiology Techniques and Laboratory conduct
 1761 A Laboratory Guide to Basic Microbiology Techniques and Laboratory conduct
@@ -1819,16 +1819,16 @@ Book Number Title
 1817 ENTREPRENEURSHIP
 1818 Financial Accounting & Reporting
 1819 Writing the Research paper A Hand Book
-1820 Gray's Anatomy for Students
-1821 Gray's Anatomy for Students
+1820 Gray\'s Anatomy for Students
+1821 Gray\'s Anatomy for Students
 1822 Dacie and Lewis Practical Haematology
 1823 Dacie and Lewis Practical Haematology
 1824 Dacie and Lewis Practical Haematology
 1825 Dacie and Lewis Practical Haematology
 1826 Dacie and Lewis Practical Haematology
-1827 Rang & Dale's PHARMACOLOGY
-1828 Rang & Dale's PHARMACOLOGY
-1829 Rang & Dale's PHARMACOLOGY
+1827 Rang & Dale\'s PHARMACOLOGY
+1828 Rang & Dale\'s PHARMACOLOGY
+1829 Rang & Dale\'s PHARMACOLOGY
 1830 Clinical Atlas of Human Anatomy
 1831 Clinical Atlas of Human Anatomy
 1832 Clinical Pharmacology
@@ -1850,10 +1850,10 @@ Book Number Title
 1848 Textbooks of PATHOLOGY-8 th .ed
 1849 Textbooks of PATHOLOGY-8 th .ed
 1850 Textbooks of PATHOLOGY
-1851 Hoff brand's Hematology
-1852 Hoff brand's Hematology
-1853 Hoff brand's Hematology
-1854 Hoff brand's Hematology
+1851 Hoff brand\'s Hematology
+1852 Hoff brand\'s Hematology
+1853 Hoff brand\'s Hematology
+1854 Hoff brand\'s Hematology
 1855 Robbins & cotran Pathologic Basis of Disease- vol-1-11
 1856 Robbins & cotran Pathologic Basis of Disease- vol-1-11
 1857 Robbins & cotran Pathologic Basis of Disease- vol-1-11
@@ -1881,7 +1881,7 @@ Book Number Title
 1879 Operation Management
 1880 BOARDROOM MATTERS-VOL 1
 1881 BOARDROOM MATTERS-VOL 11
-1882 Managing Human Resource:Productivity'Quality of work Life Profit
+1882 Managing Human Resource:Productivity\'Quality of work Life Profit
 1883 Sourcing and supply chain management
 1884 Organization communication Approaches & Proicesses
 1885 Corporate Governance & Accountability
@@ -1894,7 +1894,7 @@ Book Number Title
 1892 Medical Microbiology
 1893 Oxford handbook of Palliative care
 1894 Shorter Oxford textbook of Psychiatry
-1895 Rang & Dale's PHARMACOLOGY
+1895 Rang & Dale\'s PHARMACOLOGY
 1896 Basic Pathology
 1897 Modern Infectious Disease
 1898 Essentials of Nursing Research
@@ -1919,13 +1919,13 @@ Book Number Title
 1917 Essentials of Epidemiology
 1918 Psychology for Nurses
 1919 Human Anatomy for Students
-1920 Gray's Atlas of Anatomy
+1920 Gray\'s Atlas of Anatomy
 1921 Biochemistry
 1922 How to read Pediatric Ecgs
 1923 Nursing Process A Clinical Guide
 1924 Nursing Profile
 1925 Radical English for Nurses
-1926 A Guide for Today's Caregivers
+1926 A Guide for Today\'s Caregivers
 1927 adult Development & Aging
 1928 Language Development
 1929 Enrepreneurial Development
