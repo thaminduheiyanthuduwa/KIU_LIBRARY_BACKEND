@@ -23,6 +23,8 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import javax.transaction.Transactional;
+import java.io.BufferedReader;
+import java.io.FileReader;
 import java.io.IOException;
 import java.sql.Timestamp;
 import java.time.LocalDateTime;
@@ -107,15 +109,33 @@ public class PhysicalBookServiceImpl implements PhysicalBookService {
 
         List<StudentInfoObj> allInfo = new ArrayList<>();
 
-        StudentInfoObj studentInfoObj1 = new StudentInfoObj();
-        studentInfoObj1.setId(1);
-        studentInfoObj1.setName("Book1");
-        allInfo.add(studentInfoObj1);
 
-        StudentInfoObj studentInfoObj2 = new StudentInfoObj();
-        studentInfoObj2.setId(2);
-        studentInfoObj2.setName("Book2");
-        allInfo.add(studentInfoObj2);
+        BufferedReader reader;
+        try {
+            reader = new BufferedReader(new FileReader(
+                    "file1.txt"));
+            String line = reader.readLine();
+            while (line != null) {
+
+                line = reader.readLine();
+
+                if (line != null) {
+                    String[] splitValue = line.split(" ");
+
+                    StudentInfoObj studentInfoObj1 = new StudentInfoObj();
+                    studentInfoObj1.setId(Integer.parseInt(splitValue[0]));
+                    studentInfoObj1.setName(splitValue[1]);
+                    allInfo.add(studentInfoObj1);
+                }
+
+
+            }
+            reader.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+
 
 
         resourceDataInfo.setData(allInfo);
