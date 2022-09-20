@@ -72,5 +72,11 @@ public class ResourceEntity {
     @Column(name = "document_image")
     private String documentImage;
 
+    @Column(name = "batch")
+    private String batch;
+
+    @Column(name = "semester")
+    private String semester;
+
     public ResourceEntity() {}
 }

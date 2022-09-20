@@ -62,6 +62,10 @@ public class ResourceInfo implements Serializable {
     @JsonProperty("document_image")
     private String documentImage;
 
+    @JsonProperty("batch")
+    private String batch;
 
+    @JsonProperty("semester")
+    private String semester;
 
 }

@@ -58,7 +58,7 @@ public class EResourceServiceImpl implements EResourceService {
                     info.getResource(), info.getImportance(), info.getType(), info.getStatus(),
                     info.getDisplayTime(), info.isCommentDisabled(),
                     info.getPageViews(), test, info.getDocumentName(), info.getDescription()
-                    , info.getDocumentImage());
+                    , info.getDocumentImage(), info.getBatch(), info.getSemester());
 
             listOfResources.add(resourceInfo);
 
@@ -94,7 +94,7 @@ public class EResourceServiceImpl implements EResourceService {
                 info.getResource(), info.getImportance(), info.getType(), info.getStatus(),
                 info.getDisplayTime(), info.isCommentDisabled(),
                 info.getPageViews(), test, info.getDocumentName(), info.getDescription()
-                , info.getDocumentImage());
+                , info.getDocumentImage(), info.getBatch(), info.getSemester());
 
         listOfResources.add(resourceInfo);
 
@@ -130,7 +130,7 @@ public class EResourceServiceImpl implements EResourceService {
                 saveRequest.getTitle(),
                 saveRequest.getAuthor(), saveRequest.getDepartment(), saveRequest.getResource(),
                 0, saveRequest.getType(), "draft", dtf.format(now), false, 0,
-                saveRequest.getAddedUser(), (double) timestamp.getTime(), saveRequest.getAddedUser(), 0, saveRequest.getDescription(), "", "");
+                saveRequest.getAddedUser(), (double) timestamp.getTime(), saveRequest.getAddedUser(), 0, saveRequest.getDescription(), "", "", saveRequest.getBatch(), saveRequest.getSemester());
 
         List<ResourceEntity> listOfResources = new ArrayList<>();
         listOfResources.add(resourceEntity);
@@ -196,6 +196,8 @@ public class EResourceServiceImpl implements EResourceService {
         updateObj.setDepartment(saveRequest.getDepartment());
         updateObj.setTitle(saveRequest.getTitle());
         updateObj.setType(saveRequest.getType());
+        updateObj.setSemester(saveRequest.getSemester());
+        updateObj.setBatch(saveRequest.getBatch());
         updateObj.setResource(saveRequest.getResource());
         updateObj.setDescription(saveRequest.getDescription());
         updateObj.setLastUpdatedUser(saveRequest.getAddedUser());

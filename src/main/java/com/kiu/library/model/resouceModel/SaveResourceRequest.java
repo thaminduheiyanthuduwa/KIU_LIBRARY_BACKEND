@@ -32,4 +32,10 @@ public class SaveResourceRequest {
     @JsonProperty("type")
     private String type;
 
+    @JsonProperty("semester")
+    private String semester;
+
+    @JsonProperty("batch")
+    private String batch;
+
 }
